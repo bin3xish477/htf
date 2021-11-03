@@ -8,6 +8,26 @@ htf -r -p 8000 linpeas chisel pspy
 htf linpeas
 ```
 
+### Example Configuration File
+```
+{
+  "files": [
+    {
+      "name": "linpeas",
+      "path": "/opt/peass-ng/linPEAS/linpeas.sh"
+    },
+    {
+      "name": "pspy",
+      "path": "/opt/pspy/pspy32"
+    },
+    {
+      "name": "chisel",
+      "path": "/opt/chisel/chisel"
+    }
+  ]
+}
+```
+
 ### Installation (Linux Example)
 > With go v1.16+ installed
 ```
