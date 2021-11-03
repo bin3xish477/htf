@@ -1,5 +1,5 @@
 # htf
-**htf** (Host That File) is a tool to make serving up your favorite pentest tools simpler and faster. All you need to do is populate the htf's configuration file (see example below) with the nickname and path to tools you want to host and the pass the nickname you gave to the file as an argument to **htf**.
+**htf** (Host That File) is a tool to make serving up your favorite pentest tools simpler and faster. All you need to do is populate the htf configuration file (see example below) with the nickname and path to tools you want to host and the pass the nickname you gave to the file as an argument to **htf**.
 
 ![image](https://user-images.githubusercontent.com/44281620/140176817-edf9a3c0-5106-4cb8-a15d-3573d5f45a63.png)
 
@@ -24,6 +24,9 @@ Options:
 ```
 
 ### Example Configuration File
+
+> Must save this file as `~/.htf.json`
+
 ```
 {
   "files": [
