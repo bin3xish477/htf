@@ -94,6 +94,11 @@ func main() {
 
 	readConfig()
 
+	if len(args.Files) == 0 {
+		fmt.Println("- must provide files to host from ~/.htf.yaml")
+		return
+	}
+
 	for _, file := range args.Files {
 		filePath := getFilePathFromNickname(file)
 		if filePath == "" {
