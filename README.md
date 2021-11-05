@@ -6,8 +6,8 @@ Blog](https://binexishatt.medium.com/htf-host-that-file-e75c8daae80f)
 
 ### Example Usage
 ```
-htf -r -p 8000 linpeas chisel pspy
-htf linpeas
+$ htf -r -p 8000 linpeas chisel pspy
+$ htf linpeas
 ```
 
 ### Help
